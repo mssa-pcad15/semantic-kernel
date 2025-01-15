@@ -1,0 +1,7 @@
+{
+  "type": "azure",
+  "model": "gpt-4o-mini",
+  "endpoint": "https://pcad15-oai457466800731.openai.azure.com/",
+  "apikey": "98VZEOTer5tKu4W6vIRxpXk75DxNF9lYKvcbdPap5eVOQo9SYpaxJQQJ99BAACHYHv6XJ3w3AAAAACOG1BJ0",
+  "org": "test"
+}
