@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "description": "Generate a funny joke",
+  "description": "Generate a funny joke in Chinese",
   "execution_settings": {
     "default": {
       "max_tokens": 1000,
@@ -19,7 +19,7 @@
     {
       "name": "style",
       "description": "Give a hint about the desired joke style",
-      "default": ""
+      "default": "Old man joke"
     }
   ]
 }
