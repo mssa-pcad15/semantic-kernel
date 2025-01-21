@@ -411,7 +411,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AotCompatibility", "samples
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemanticKernel.AotTests", "src\SemanticKernel.AotTests\SemanticKernel.AotTests.csproj", "{39EAB599-742F-417D-AF80-95F90376BB18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connectors.Postgres.UnitTests", "src\Connectors\Connectors.Postgres.UnitTests\Connectors.Postgres.UnitTests.csproj", "{232E1153-6366-4175-A982-D66B30AAD610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Connectors.Postgres.UnitTests", "src\Connectors\Connectors.Postgres.UnitTests\Connectors.Postgres.UnitTests.csproj", "{232E1153-6366-4175-A982-D66B30AAD610}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Process.Utilities.UnitTests", "src\Experimental\Process.Utilities.UnitTests\Process.Utilities.UnitTests.csproj", "{DAC54048-A39A-4739-8307-EA5A291F2EA0}"
 EndProject
@@ -431,13 +431,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Process.IntegrationTests.Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OllamaFunctionCalling", "samples\Demos\OllamaFunctionCalling\OllamaFunctionCalling.csproj", "{481A680F-476A-4627-83DE-2F56C484525E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAIRealtime", "samples\Demos\OpenAIRealtime\OpenAIRealtime.csproj", "{6154129E-7A35-44A5-998E-B7001B5EDE14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAIRealtime", "samples\Demos\OpenAIRealtime\OpenAIRealtime.csproj", "{6154129E-7A35-44A5-998E-B7001B5EDE14}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreateChatGpt", "CreateChatGpt", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sk-chatgpt-azure-function", "samples\Demos\CreateChatGptPlugin\MathPlugin\azure-function\sk-chatgpt-azure-function.csproj", "{2EB6E4C2-606D-B638-2E08-49EA2061C428}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sk-chatgpt-azure-function", "samples\Demos\CreateChatGptPlugin\MathPlugin\azure-function\sk-chatgpt-azure-function.csproj", "{2EB6E4C2-606D-B638-2E08-49EA2061C428}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kernel-functions-generator", "samples\Demos\CreateChatGptPlugin\MathPlugin\kernel-functions-generator\kernel-functions-generator.csproj", "{78785CB1-66CF-4895-D7E5-A440DD84BE86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kernel-functions-generator", "samples\Demos\CreateChatGptPlugin\MathPlugin\kernel-functions-generator\kernel-functions-generator.csproj", "{78785CB1-66CF-4895-D7E5-A440DD84BE86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GermFolder", "GermFolder", "{0F2AE194-3E76-4DD4-AA22-C684883EE3ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnYourOwnSK", "OnYourOwnSK\OnYourOwnSK.csproj", "{9CE91F29-9BC0-4A4F-A855-E61A438EAABB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1076,12 +1080,6 @@ Global
 		{6F591D05-5F7F-4211-9042-42D8BCE60415}.Publish|Any CPU.Build.0 = Debug|Any CPU
 		{6F591D05-5F7F-4211-9042-42D8BCE60415}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F591D05-5F7F-4211-9042-42D8BCE60415}.Release|Any CPU.Build.0 = Release|Any CPU
-		{232E1153-6366-4175-A982-D66B30AAD610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{232E1153-6366-4175-A982-D66B30AAD610}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{232E1153-6366-4175-A982-D66B30AAD610}.Publish|Any CPU.ActiveCfg = Debug|Any CPU
-		{232E1153-6366-4175-A982-D66B30AAD610}.Publish|Any CPU.Build.0 = Debug|Any CPU
-		{232E1153-6366-4175-A982-D66B30AAD610}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{232E1153-6366-4175-A982-D66B30AAD610}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E82B640C-1704-430D-8D71-FD8ED3695468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E82B640C-1704-430D-8D71-FD8ED3695468}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E82B640C-1704-430D-8D71-FD8ED3695468}.Publish|Any CPU.ActiveCfg = Debug|Any CPU
@@ -1100,6 +1098,12 @@ Global
 		{39EAB599-742F-417D-AF80-95F90376BB18}.Publish|Any CPU.Build.0 = Publish|Any CPU
 		{39EAB599-742F-417D-AF80-95F90376BB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39EAB599-742F-417D-AF80-95F90376BB18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{232E1153-6366-4175-A982-D66B30AAD610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232E1153-6366-4175-A982-D66B30AAD610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232E1153-6366-4175-A982-D66B30AAD610}.Publish|Any CPU.ActiveCfg = Debug|Any CPU
+		{232E1153-6366-4175-A982-D66B30AAD610}.Publish|Any CPU.Build.0 = Debug|Any CPU
+		{232E1153-6366-4175-A982-D66B30AAD610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232E1153-6366-4175-A982-D66B30AAD610}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DAC54048-A39A-4739-8307-EA5A291F2EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DAC54048-A39A-4739-8307-EA5A291F2EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAC54048-A39A-4739-8307-EA5A291F2EA0}.Publish|Any CPU.ActiveCfg = Debug|Any CPU
@@ -1172,6 +1176,12 @@ Global
 		{78785CB1-66CF-4895-D7E5-A440DD84BE86}.Publish|Any CPU.Build.0 = Debug|Any CPU
 		{78785CB1-66CF-4895-D7E5-A440DD84BE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78785CB1-66CF-4895-D7E5-A440DD84BE86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE91F29-9BC0-4A4F-A855-E61A438EAABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE91F29-9BC0-4A4F-A855-E61A438EAABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE91F29-9BC0-4A4F-A855-E61A438EAABB}.Publish|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE91F29-9BC0-4A4F-A855-E61A438EAABB}.Publish|Any CPU.Build.0 = Debug|Any CPU
+		{9CE91F29-9BC0-4A4F-A855-E61A438EAABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE91F29-9BC0-4A4F-A855-E61A438EAABB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1333,6 +1343,7 @@ Global
 		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {5D4C0700-BBB5-418F-A7B2-F392B9A18263}
 		{2EB6E4C2-606D-B638-2E08-49EA2061C428} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{78785CB1-66CF-4895-D7E5-A440DD84BE86} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9CE91F29-9BC0-4A4F-A855-E61A438EAABB} = {0F2AE194-3E76-4DD4-AA22-C684883EE3ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FBDC56A3-86AD-4323-AA0F-201E59123B83}
