@@ -2,5 +2,8 @@
 
 from semantic_kernel.kernel import Kernel
 
-__version__ = "1.18.2"
-__all__ = ["Kernel", "__version__"]
+__version__ = "1.27.2"
+
+DEFAULT_RC_VERSION = f"{__version__}-rc6"
+
+__all__ = ["DEFAULT_RC_VERSION", "Kernel", "__version__"]
